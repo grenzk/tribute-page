@@ -1,13 +1,13 @@
 body {
   height: 100vh;
   margin: 0;
-  padding: 0;
 }
 
 .header-container {
   display: flex;
   padding: 30px 0;
   justify-content: center;
+  align-items: center;
   border-bottom: 1px solid #b2bcc9;
 }
 
@@ -57,7 +57,9 @@ p {
 }
 
 .header-links {
-  gap: 150px;
+  gap: 100px;
+  display: flex;
+  align-items: center;
 }
 
 .content-container {
@@ -78,6 +80,7 @@ a {
   text-decoration: none;
   color: black;
   font-family: "Roboto", sans-serif;
+  font-size: 20px;
 }
 
 #image {
@@ -105,4 +108,11 @@ a {
   font-size: 35px;
   font-family: "Abril Fatface", cursive;
   background-color: #ffdb00;
+}
+
+#icon {
+  font-size: 10px;
+  position: fixed;
+  bottom: 0;
+  margin-left: 10px;
 }
