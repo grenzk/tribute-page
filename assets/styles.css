@@ -1,6 +1,7 @@
 body {
   height: 100vh;
   margin: 0;
+
 }
 
 .header-container {
@@ -10,8 +11,24 @@ body {
   border-bottom: 1px solid #b2bcc9;
 }
 
+h1 {
+  font-size: 50px;
+}
+
+p {
+  font-size: 20px;
+  width: 900px;
+  line-height: 1.6;
+}
+
 .header-links {
   gap: 150px;
+}
+
+.content-container {
+  display: flex;
+  justify-content: flex-start;
+  gap: 230px;
 }
 
 ul {
@@ -25,4 +42,10 @@ ul {
 a {
   text-decoration: none;
   color: #7f757f;
+}
+
+img {
+  height: auto;
+  width: 570px;
+  border-bottom-right-radius: 30%;
 }
