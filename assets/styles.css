@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 #main {
@@ -14,7 +14,6 @@
 .nav-bar {
   width: 100%;
   display: flex;
-  flex-direction: row-reverse;
   align-items: center;
   border-bottom: 1px solid #b2bcc9;
 }
@@ -23,7 +22,7 @@
   width: 50px;
   cursor: pointer;
   margin: 30px 0;
-  margin-right: 2%;
+  margin-left: 2%;
 }
 
 /*.menu-icon {
@@ -32,14 +31,14 @@
 
 nav {
   flex: 1;
-  text-align: center;
+  text-align: left;
   margin-left: 2%;
 }
 
 nav ul li {
   list-style: none;
   display: inline-block;
-  margin-right: 50px;
+  margin-right: 40px;
 }
 
 nav ul li a {
@@ -49,5 +48,59 @@ nav ul li a {
 
 .row {
   display: flex;
-  gap: 17%;
+  margin: 40px 0;
+  gap: 6%;
+}
+
+.col-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  flex-basis: 40%;
+  position: relative;
+  margin-left: 100px;
+}
+
+#title,
+#header,
+#img-caption {
+  font-family: "Abril Fatface", cursive;
+  background-color: #ffdb00;
+}
+
+#img-caption {
+  text-align: center;
+  font-size: 35px;
+  width: 400px;
+}
+
+#header {
+  font-size: 35px;
+  width: 110px;
+  margin-bottom: 35px;
+}
+
+.col-2 h1 {
+  font-size: 54px;
+  width: 420px;
+  margin-bottom: 20px;
+}
+
+.col-2 p {
+  font-size: 1.125em;
+  line-height: 1.6;
+  width: 70%;
+  margin-bottom: 30px;
+}
+
+.book-covers {
+  display: flex;
+  align-items: center;
+}
+
+.book-cover img {
+  width: 75%;
+  border-radius: 30px;
+  margin-bottom: 10px;
 }
