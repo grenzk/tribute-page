@@ -39,6 +39,7 @@ nav ul li {
   list-style: none;
   display: inline-block;
   margin-right: 40px;
+  border-bottom: 2px solid #ffdb00;
 }
 
 nav ul li a {
@@ -131,7 +132,6 @@ nav ul li a {
 
   nav ul li {
     margin: 0;
-    /* border-bottom: 2px solid black; */
   }
 
   .logo {
