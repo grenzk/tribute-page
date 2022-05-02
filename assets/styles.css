@@ -77,14 +77,16 @@ nav ul li a {
 
 #header {
   font-size: 35px;
-  width: 110px;
+  width: 9%;
   margin-bottom: 35px;
+  overflow-wrap: break-word;
 }
 
 .col-2 h1 {
-  font-size: 54px;
-  width: 420px;
+  font-size: 3.375em;
+  width: 35%;
   margin-bottom: 20px;
+  overflow-wrap: break-word;
 }
 
 .col-2 p {
