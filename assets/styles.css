@@ -114,10 +114,6 @@ nav ul li a {
 }
 
 @media only screen and (max-width: 900px) {
-  body {
-    overflow-y: hidden;
-  }
-
   nav ul {
     position: absolute;
     left: 0;
@@ -130,6 +126,7 @@ nav ul li a {
     justify-content: space-around;
     width: 100%;
     transform: translateY(-200%);
+    z-index: 2;
   }
 
   nav ul li {
@@ -147,8 +144,68 @@ nav ul li a {
     cursor: pointer;
   }
 
+  #image {
+    width: 90%;
+  }
+
+  #img-caption {
+    font-size: 20px;
+    width: 240px;
+  }
+
+  #title {
+    font-size: 2em;
+    width: 66%;
+  }
+
+  .col-1 {
+    margin-left: 0;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .col-2 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .col-2 p {
+    width: 66%;
+    font-size: 1em;
+  }
+
+  #header {
+    font-size: 1.7em;
+    width: 25%;
+  }
+
   .row {
-    display: none;
+    flex-direction: column;
+    gap: 60px;
+  }
+
+  .book-covers {
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .book-cover {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .book-cover img {
+    width: 55%;
+  }
+
+  .text {
+    font-size: 0.9em;
   }
 }
 
