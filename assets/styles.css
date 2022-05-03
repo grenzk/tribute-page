@@ -111,7 +111,8 @@ nav ul li a {
 
 .footer a {
   text-decoration: none;
-  color: hsl(217, 6%, 45%);
+  color: rgb(127, 127, 127);
+  border-bottom: 2px solid #ffdb00;
 }
 
 @media only screen and (max-width: 1024px) {
