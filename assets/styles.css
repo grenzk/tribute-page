@@ -176,8 +176,11 @@ nav ul li a {
   }
 
   .col-2 p {
-    width: 66%;
+    width: 83%;
     font-size: 1em;
+    text-align: justify;
+    text-justify: none;
+    margin-left: 15px;
   }
 
   #header {
