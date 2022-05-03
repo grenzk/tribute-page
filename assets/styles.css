@@ -237,7 +237,7 @@ nav ul li a {
 
 @media only screen and (max-width:700px) {
   nav ul {
-    top: 16.5vh;
+    top: 17vh;
     height: 18vh;
   }
   
