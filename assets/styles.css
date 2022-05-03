@@ -106,6 +106,7 @@ nav ul li a {
   width: 75%;
   border-radius: 30px;
   margin-bottom: 10px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
 }
 
 @media only screen and (max-width: 1024px) {
@@ -194,7 +195,7 @@ nav ul li a {
   }
 
   .book-covers {
-    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 30px;
   }
