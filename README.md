@@ -1,6 +1,6 @@
 # Tribute Page
 
-I built a tribute page using HTML, CSS, and Javascript. It's my first attempt on responsive web design and... it's quite fun! But it still requires more practice.
+I built a tribute page using HTML, CSS, and Javascript. This was my first attempt in trying out responsive web design and... it's quite fun! But it still requires more practice.
 
 ## Full Design
 
