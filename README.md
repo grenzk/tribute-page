@@ -14,10 +14,10 @@ I built a tribute page using HTML, CSS, and Javascript. This was my first attemp
      <td>Mobile with Footer</td>
   </tr>
   <tr>
-    <td><img src="assets/mobile.png"></td>
-    <td><img src="assets/mobile_with_navbar.png"></td>
-    <td><img src="assets/mobile_with_content.png"></td>
-    <td><img src="assets/mobile_with_footer.png"></td>
+    <td><img src="assets/screenshots/mobile.png"></td>
+    <td><img src="assets/screenshots/mobile_with_navbar.png"></td>
+    <td><img src="assets/screenshots/mobile_with_content.png"></td>
+    <td><img src="assets/screenshots/mobile_with_footer.png"></td>
   </tr>
  </table>
 
