@@ -10,10 +10,12 @@ I built a tribute page using HTML, CSS, and Javascript. It's my first attempt on
   <tr>
     <td>Mobile</td>
      <td>Mobile with Navbar</td>
+     <td>Mobile with Content</td>
   </tr>
   <tr>
     <td><img src="assets/mobile.png"></td>
     <td><img src="assets/mobile_with_navbar.png"></td>
+    <td><img src="assets/mobile_with_content.png"></td>
   </tr>
  </table>
 
