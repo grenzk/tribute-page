@@ -20,7 +20,8 @@ I built a tribute page using HTML, CSS, and Javascript. This was my first attemp
     <td><img src="assets/screenshots/mobile_with_footer.png"></td>
   </tr>
  </table>
-
-## Source
-
-Avion School (https://docs.avionschool.com/avn-mcourse/-MYjabeTubdULkJ4UAcG/lessons/project-tribute-page)
+ 
+ ## Live Demo
+ 
+ 
+Github Page (https://grenzk.github.io/tribute-page/)
